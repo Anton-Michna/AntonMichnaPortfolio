@@ -1,25 +1,66 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import EducationComponent from './EducationComponent';
+import ProjectsComponent from './ProjectsComponent';
+import InterestsComponent from './InterestsComponent';
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  const [activeComponent, setActiveComponent] = useState(null);
+
+  const handleLinkClick = (componentName) => {
+    setActiveComponent(componentName);
+  };
+
+  const renderComponent = () => {
+    switch (activeComponent) {
+      case 'education':
+        return <EducationComponent handleLinkClick={handleLinkClick} />;
+      case 'projects':
+        return <ProjectsComponent handleLinkClick={handleLinkClick} />;
+      case 'interests':
+        return <InterestsComponent handleLinkClick={handleLinkClick} />;
+      default:
+        return (
+          <div>
+            <div className="animated-background"></div>
+            <div className="profile-picture"></div>
+            <div className="header-text">
+              <h1>
+                Anton Michna
+              </h1>
+            </div>
+
+            <div className="left-link">
+              {activeComponent !== 'education' ? (
+                <a href="#" onClick={() => handleLinkClick('education')}>Education</a>
+              ) : (
+                <a href="#" onClick={() => handleLinkClick(null)}>Go Back</a>
+              )}
+            </div>
+
+            <div className="middle-link">
+              {activeComponent !== 'projects' ? (
+                <a href="#" onClick={() => handleLinkClick('projects')}>Projects</a>
+              ) : (
+                <a href="#" onClick={() => handleLinkClick(null)}>Go Back</a>
+              )}
+            </div>
+
+            <div className="right-link">
+              {activeComponent !== 'interests' ? (
+                <a href="#" onClick={() => handleLinkClick('interests')}>Interests</a>
+              ) : (
+                <a href="#" onClick={() => handleLinkClick(null)}>Go Back</a>
+              )}
+            </div>
+          </div>
+        );
+    }
+  };
+
+  return <body>{renderComponent()}</body>;
 }
 
 export default App;
+
+
