@@ -3,6 +3,14 @@ body {
   padding: 0;
 }
 
+.projects-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: row;
+}
+
 .heading-text {
   font-size: 75px;
   font-weight: bold;
