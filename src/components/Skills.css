@@ -1,3 +1,120 @@
+.skills-component {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+
+.skills-to-contain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+
+.skills-first-heading{
+  font-size: 75px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0%;
+  font-weight: bold;
+  top: 3%;
+}
+
+.skills-text-description {
+  font-size: 45;
+  font-weight: 600;
+  margin-left: 15px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.skills-lists-container {
+  display: flex;
+}
+
+.bulleted-list {
+  font-weight: 400;
+  list-style-type: disc;
+  padding-left: 50px;
+}
+
+.bulleted-list li {
+  margin-bottom: 10px;
+}
+
+li {
+  font-weight: 600;
+}
+
+
+
+
+.skills-list-description {
+  flex: 1;
+  margin-right: 20px;
+  font-size: 30;
+  font-weight: 500;
+  margin-left: 15px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+
+.resume-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume-pdf {
+  width: 80%;
+  height: 80%;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.close-button:hover {
+  background-color: #ccc;
+}
+
+
+
+
+
+.skills-return-to-home {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
 .custom-button {
     appearance: none;
     background-color: transparent;
@@ -40,31 +157,4 @@
   .custom-button:active {
     box-shadow: none;
     transform: translateY(0);
-  }
-
-  .left-link {
-    position: absolute;
-    top: 65%;
-    left: 25%;
-    transform: translateX(-50%);
-    color: rgb(0, 0, 0);
-    font-size: 25px;
-  }
-  
-  .middle-link {
-    position: absolute;
-    top: 65%;
-    left: 50%;
-    transform: translateX(-50%);
-    color: rgb(0, 0, 0);
-    font-size: 25px;
-  }
-  
-  .right-link {
-    position: absolute;
-    top: 65%;
-    right: 25%;
-    transform: translateX(50%);
-    color: rgb(0, 0, 0);
-    font-size: 25px;
   }

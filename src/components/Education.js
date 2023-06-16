@@ -17,6 +17,7 @@ function Education() {
         setShowApp(false);
       };
 
+
   return (
 
     <div className='education-child-component'>
