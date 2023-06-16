@@ -51,6 +51,7 @@
 }
 
 .content-square-github {
+  margin-top: 10px;
   text-align: center;
   transition: font-size 0.3s ease;
 }
