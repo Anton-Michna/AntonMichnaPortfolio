@@ -1,3 +1,70 @@
+.education-child-component {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+
+.education-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+
+.education-heading-one{
+  font-size: 75px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0%;
+  font-weight: bold;
+  top: 3%;
+}
+
+.education-heading-two{
+  font-size: 55px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0%;
+  font-weight: bold;
+  top: 15%;
+}
+
+.image-for-education {
+  margin-top: 30px;
+  width: 20px; /* Adjust the desired width */
+  height: auto; /* Maintain aspect ratio */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.education-text-description {
+  font-size: 25;
+  font-weight: 500;
+  margin-left: 15px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+
+
+
+.education-go-back-link {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
 .custom-button {
     appearance: none;
     background-color: transparent;
