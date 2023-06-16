@@ -1,0 +1,63 @@
+.content-square {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: scroll;
+  transition: width 0.3s ease, height 0.3s ease;
+}
+
+.content-square.hovered {
+  width: 75vw;
+  height: 60vh;
+}
+
+.content-square-index {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 2px;
+  transition: font-size 0.3s ease;
+}
+
+.content-square-images {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 2px;
+  transition: margin-bottom 0.3s ease;
+}
+
+.content-square-image {
+  width: 70%;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  transition: all 0.3s ease;
+}
+
+.content-square:hover .content-square-image {
+  transform: scale(1.1); /* Adjust the scale value as desired */
+}
+
+
+
+.content-square-description {
+  text-align: center;
+  margin-bottom: 2px;
+  transition: font-size 0.3s ease, margin-bottom 0.3s ease;
+}
+
+.content-square-github {
+  text-align: center;
+  transition: font-size 0.3s ease;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
