@@ -73,7 +73,7 @@ function Skills() {
                 My complete resume can be viewed below.
               </div>
 
-              <div className='skills-resume-button'>
+              <div className='skills-middle-link-button'>
                 <button className='custom-button' onClick={handleOpenResume}>
                   Open Resume
                 </button>
@@ -82,7 +82,7 @@ function Skills() {
 
 
 
-              <div className='skills-return-to-home'>
+              <div className='skills-middle-link-button'>
                 <button className='custom-button' onClick={handleGoBackClick}>Go Back</button>
               </div>
 
