@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/AntonMichnaPortfolio/static/css/main.d81d5b28.css",
+    "main.js": "/AntonMichnaPortfolio/static/js/main.c39f8d13.js",
+    "static/js/787.924567e0.chunk.js": "/AntonMichnaPortfolio/static/js/787.924567e0.chunk.js",
+    "static/media/UofM1.jpg": "/AntonMichnaPortfolio/static/media/UofM1.5aae2187a8a21c95f1d2.jpg",
+    "static/media/VeggieEater2.png": "/AntonMichnaPortfolio/static/media/VeggieEater2.5da0d2fdd13f601b69ca.png",
+    "static/media/VeggieEater1.png": "/AntonMichnaPortfolio/static/media/VeggieEater1.d443a68a908545743eda.png",
+    "static/media/anton.jpg": "/AntonMichnaPortfolio/static/media/anton.1eccf8e23d00faa0de54.jpg",
+    "static/media/Person1.PNG": "/AntonMichnaPortfolio/static/media/Person1.91dd018319634fcba312.PNG",
+    "static/media/AntonMichnaResume.pdf": "/AntonMichnaPortfolio/static/media/AntonMichnaResume.d0f69aa137a24bbe79ac.pdf",
+    "static/media/SplitFinder1.PNG": "/AntonMichnaPortfolio/static/media/SplitFinder1.6ab4743ca399a299a4a9.PNG",
+    "static/media/SplitFinder2.PNG": "/AntonMichnaPortfolio/static/media/SplitFinder2.cc20f3b695741201643e.PNG",
+    "index.html": "/AntonMichnaPortfolio/index.html",
+    "main.d81d5b28.css.map": "/AntonMichnaPortfolio/static/css/main.d81d5b28.css.map",
+    "main.c39f8d13.js.map": "/AntonMichnaPortfolio/static/js/main.c39f8d13.js.map",
+    "787.924567e0.chunk.js.map": "/AntonMichnaPortfolio/static/js/787.924567e0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d81d5b28.css",
+    "static/js/main.c39f8d13.js"
+  ]
+}
