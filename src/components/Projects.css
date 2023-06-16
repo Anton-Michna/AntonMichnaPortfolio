@@ -1,79 +1,40 @@
-.child-component {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-
-h1 {
-  font-size: 45px;
-}
-
 body {
   margin: 0;
   padding: 0;
-  overflow: hidden;
 }
 
-.slide-container {
+.heading-text {
+  font-size: 75px;
+  font-weight: bold;
+  position: absolute;
+  top: 3%; /* Adjust this value to move the text higher or lower */
+}
+
+.go-back-link {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
-.profile-picture {
-  position: absolute;
-  top: 5%;
-  width: 400px;
-  height: 400px;
-  border-radius: 50%;
-  background-image: url('anton.jpg');
-  background-size: cover;
-  transition: transform 1s ease-in-out;
-}
-
-.slide-out {
-  transform: translateX(100%);
-}
-
-.header-text {
+.content-square {
+  width: calc((100vw - 20px) / 3); /* Adjust the width based on the number of squares */
+  height: 35vh;
+  background-color: lightgray;
+  border-radius: 10px;
+  transition: width 0.3s ease, height 0.3s ease;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
   text-align: center;
-  position: relative;
-  color: rgb(0, 0, 0);
-  font-size: 40px;
-  top: 55%;
-  left: 50%;
 }
-
-.left-link {
-  position: absolute;
-  top: 65%;
-  left: 25%;
-  transform: translateX(-50%);
-  color: rgb(0, 0, 0);
-  font-size: 25px;
-}
-
-.middle-link {
-  position: absolute;
-  top: 65%;
-  left: 50%;
-  transform: translateX(-50%);
-  color: rgb(0, 0, 0);
-  font-size: 25px;
-}
-
-.right-link {
-  position: absolute;
-  top: 65%;
-  right: 25%;
-  transform: translateX(50%);
-  color: rgb(0, 0, 0);
-  font-size: 25px;
-}
-
-
 
 .custom-button {
   appearance: none;
@@ -135,7 +96,7 @@ body {
 
 
 
-
-
-
-
+  
+  
+  
+  

@@ -1,66 +1,94 @@
 import React, { useState } from 'react';
-import EducationComponent from './EducationComponent';
-import ProjectsComponent from './ProjectsComponent';
-import InterestsComponent from './InterestsComponent';
 import './App.css';
+import Education from './components/Education';
+import Projects from './components/Projects';
+import Skills from './components/Skills';
+import { Slide } from '@material-ui/core';
 
-function App() {
-  const [activeComponent, setActiveComponent] = useState(null);
+function App( {directionWhenCalled} ) {
+  const [showEducation, setShowEducation] = useState(false);
+  const [showProjects, setShowProjects] = useState(false);
+  const [showSkills, setShowSkills] = useState(false);
+  const [isActive, setIsActive] = useState(false);
+  const [slideDirection, setSlideDirection] = useState(directionWhenCalled); // Lifted state for slide direction
 
-  const handleLinkClick = (componentName) => {
-    setActiveComponent(componentName);
+
+
+  const handleClick = () => {
+    setIsActive(!isActive);
   };
 
-  const renderComponent = () => {
-    switch (activeComponent) {
-      case 'education':
-        return <EducationComponent handleLinkClick={handleLinkClick} />;
-      case 'projects':
-        return <ProjectsComponent handleLinkClick={handleLinkClick} />;
-      case 'interests':
-        return <InterestsComponent handleLinkClick={handleLinkClick} />;
-      default:
-        return (
-          <div>
-            <div className="animated-background"></div>
-            <div className="profile-picture"></div>
-            <div className="header-text">
-              <h1>
-                Anton Michna
-              </h1>
-            </div>
+  const handleEducationClick = () => {
+    setSlideDirection('left'); // Update slide direction
+    setShowEducation(true);
+    setIsActive(true);
+  };
 
-            <div className="left-link">
-              {activeComponent !== 'education' ? (
-                <a href="#" onClick={() => handleLinkClick('education')}>Education</a>
-              ) : (
-                <a href="#" onClick={() => handleLinkClick(null)}>Go Back</a>
-              )}
-            </div>
+  const handleProjectsClick = () => {
+    setSlideDirection('right'); // Update slide direction
+    setShowProjects(true);
+    setIsActive(true);
+  };
 
-            <div className="middle-link">
-              {activeComponent !== 'projects' ? (
-                <a href="#" onClick={() => handleLinkClick('projects')}>Projects</a>
-              ) : (
-                <a href="#" onClick={() => handleLinkClick(null)}>Go Back</a>
-              )}
-            </div>
+  const handleSkillsClick = () => {
+    setSlideDirection('down'); // Update slide direction
+    setShowSkills(true);
+    setIsActive(true);
+  };
 
-            <div className="right-link">
-              {activeComponent !== 'interests' ? (
-                <a href="#" onClick={() => handleLinkClick('interests')}>Interests</a>
-              ) : (
-                <a href="#" onClick={() => handleLinkClick(null)}>Go Back</a>
-              )}
-            </div>
+  return (
+    <div className='child-component'>
+      <Slide direction={slideDirection} in={!isActive} mountOnEnter unmountOnExit>
+        <div className='slide-container'>
+          <div className={`profile-picture ${isActive ? 'slide-out' : ''}`}></div>
+
+          
+          <h1 style={{ fontSize: '60px', marginTop: '50px' }}>Anton Michna</h1>
+
+
+          
+
+          <div className='right-link'>
+            <button className="custom-button" onClick={handleEducationClick}>Education</button>
           </div>
-        );
-    }
-  };
 
-  return <body>{renderComponent()}</body>;
+          <div className='left-link'>
+            <button className="custom-button" onClick={handleProjectsClick}>Projects</button>
+          </div>
+
+          <div className='middle-link'>
+            <button className="custom-button" onClick={handleSkillsClick}>Skills</button>
+          </div>
+
+        </div>
+      </Slide>
+
+      {showEducation && <Education />}
+      {showProjects && <Projects />}
+      {showSkills && <Skills />}
+    </div>
+  );
 }
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
