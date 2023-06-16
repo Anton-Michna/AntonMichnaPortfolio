@@ -26,7 +26,7 @@ function Projects() {
   return (
     <div className="child-component">
       <Slide direction="left" in={showProj} mountOnEnter unmountOnExit>
-        <div className="slide-container">
+        <div className="projects-container">
           <div className="heading-text">Personal Projects</div>
 
           <ContentSquare
