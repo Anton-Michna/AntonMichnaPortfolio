@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/AntonMichnaPortfolio/static/css/main.952eb19d.css",
+    "main.css": "/AntonMichnaPortfolio/static/css/main.997c69a3.css",
     "main.js": "/AntonMichnaPortfolio/static/js/main.2b20f95a.js",
     "static/js/787.924567e0.chunk.js": "/AntonMichnaPortfolio/static/js/787.924567e0.chunk.js",
     "static/media/UofM1.jpg": "/AntonMichnaPortfolio/static/media/UofM1.5aae2187a8a21c95f1d2.jpg",
@@ -12,12 +12,12 @@
     "static/media/SplitFinder1.PNG": "/AntonMichnaPortfolio/static/media/SplitFinder1.6ab4743ca399a299a4a9.PNG",
     "static/media/SplitFinder2.PNG": "/AntonMichnaPortfolio/static/media/SplitFinder2.cc20f3b695741201643e.PNG",
     "index.html": "/AntonMichnaPortfolio/index.html",
-    "main.952eb19d.css.map": "/AntonMichnaPortfolio/static/css/main.952eb19d.css.map",
+    "main.997c69a3.css.map": "/AntonMichnaPortfolio/static/css/main.997c69a3.css.map",
     "main.2b20f95a.js.map": "/AntonMichnaPortfolio/static/js/main.2b20f95a.js.map",
     "787.924567e0.chunk.js.map": "/AntonMichnaPortfolio/static/js/787.924567e0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.952eb19d.css",
+    "static/css/main.997c69a3.css",
     "static/js/main.2b20f95a.js"
   ]
 }
