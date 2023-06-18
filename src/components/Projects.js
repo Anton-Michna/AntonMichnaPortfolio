@@ -26,8 +26,12 @@ function Projects() {
   return (
     <div className="projects-component">
       <Slide direction="left" in={showProj} mountOnEnter unmountOnExit>
-        <div className="projects-container">
-          <div className="heading-text">Personal Projects</div>
+        
+        <div className='projects-to-contain'>
+          
+          <div className="projects-heading-text">Personal Projects</div>
+
+          <div className="blocks-container">
 
           <ContentSquare
             index={'Running Split Calculator'}
@@ -52,12 +56,13 @@ function Projects() {
             github={'https://github.com/Anton-Michna/reacttest'}
           />
 
-          
+        </div>
 
-          <div className="go-back-link">
+        <div className="projects-middle-link-button">
             <button className='custom-button' onClick={handleGoBackClick}>Go Back</button>
           </div>
-        </div>
+
+          </div>
       </Slide>
 
       {showApp && <App directionWhenCalled={'right'} />}
