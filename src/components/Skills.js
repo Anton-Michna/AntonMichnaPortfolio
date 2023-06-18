@@ -73,7 +73,7 @@ function Skills() {
                 My complete resume can be viewed below.
               </div>
 
-              <div className='skills-middle-link-button'>
+              <div className='skills-resume-link-button'>
                 <button className='custom-button' onClick={handleOpenResume}>
                   Open Resume
                 </button>

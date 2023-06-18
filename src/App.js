@@ -55,6 +55,10 @@ function App( {directionWhenCalled} ) {
               Anton Michna
         </div>
 
+        <div className='app-description'>
+              This is my Personal Portfolio Website. It is meant to serve as both an extension of my resume as well as a proof of my Web Design capabilites. Thanks for stopping by!
+        </div>
+
 
         <div className='buttons-to-contain'>
 
