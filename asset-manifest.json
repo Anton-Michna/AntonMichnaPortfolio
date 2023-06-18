@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/AntonMichnaPortfolio/static/css/main.06c44523.css",
-    "main.js": "/AntonMichnaPortfolio/static/js/main.2b20f95a.js",
+    "main.css": "/AntonMichnaPortfolio/static/css/main.a51983ea.css",
+    "main.js": "/AntonMichnaPortfolio/static/js/main.75885197.js",
     "static/js/787.924567e0.chunk.js": "/AntonMichnaPortfolio/static/js/787.924567e0.chunk.js",
     "static/media/UofM1.jpg": "/AntonMichnaPortfolio/static/media/UofM1.5aae2187a8a21c95f1d2.jpg",
     "static/media/VeggieEater2.png": "/AntonMichnaPortfolio/static/media/VeggieEater2.5da0d2fdd13f601b69ca.png",
@@ -12,12 +12,12 @@
     "static/media/SplitFinder1.PNG": "/AntonMichnaPortfolio/static/media/SplitFinder1.6ab4743ca399a299a4a9.PNG",
     "static/media/SplitFinder2.PNG": "/AntonMichnaPortfolio/static/media/SplitFinder2.cc20f3b695741201643e.PNG",
     "index.html": "/AntonMichnaPortfolio/index.html",
-    "main.06c44523.css.map": "/AntonMichnaPortfolio/static/css/main.06c44523.css.map",
-    "main.2b20f95a.js.map": "/AntonMichnaPortfolio/static/js/main.2b20f95a.js.map",
+    "main.a51983ea.css.map": "/AntonMichnaPortfolio/static/css/main.a51983ea.css.map",
+    "main.75885197.js.map": "/AntonMichnaPortfolio/static/js/main.75885197.js.map",
     "787.924567e0.chunk.js.map": "/AntonMichnaPortfolio/static/js/787.924567e0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.06c44523.css",
-    "static/js/main.2b20f95a.js"
+    "static/css/main.a51983ea.css",
+    "static/js/main.75885197.js"
   ]
 }
