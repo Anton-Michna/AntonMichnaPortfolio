@@ -8,9 +8,9 @@ const Background = () => {
   return (
     <div>
       <div className="animated-background"></div>
-      <div className='holder'>
+
         <App directionWhenCalled={'down'}/>
-      </div>
+
     </div>
   );
 };
