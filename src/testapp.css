@@ -19,7 +19,7 @@ body{
 
 
   .image-for-app {
-    margin-top: 30px;
+    margin-top: 5%;
     width: 20; /* Adjust the desired width */
     height: 20; /* Maintain aspect ratio */
   }
@@ -30,7 +30,15 @@ body{
     margin-bottom: 0px;
     padding: 0%;
     font-weight: bold;
-    top: 3%;
+    align-items: center;
+  }
+
+  .app-description{
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0%;
+    font-weight: 400;
   }
 
 
@@ -48,7 +56,7 @@ body{
   .middle-link {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 5%;
   }
 
 
