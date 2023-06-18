@@ -1,5 +1,5 @@
 body{
-    overflow:scroll;
+    overflow:auto;
 }
 
 .app-component {
@@ -19,7 +19,7 @@ body{
 
 
   .image-for-app {
-    margin-top: 5%;
+    margin-top: 5vh;
     width: 20; /* Adjust the desired width */
     height: 20; /* Maintain aspect ratio */
   }
