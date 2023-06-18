@@ -5,6 +5,7 @@ body{
 
 .app-component {
     position: absolute;
+    justify-content: flex-start;
     top: 0;
     left: 0;
     right: 0;
@@ -65,14 +66,14 @@ body{
   .right-link button,
 .left-link button {
   flex: 1;
-  margin-left: 7vw;
-  margin-right: 7vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
 
 .middle-link button {
   width: auto;
-  margin-right: 7vw;
-  margin-left: 7vw;
+  margin-right: 5vw;
+  margin-left: 5vw;
 }
 
 
