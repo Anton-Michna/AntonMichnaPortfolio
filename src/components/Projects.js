@@ -37,7 +37,7 @@ function Projects() {
             index={'Running Split Calculator'}
             images={[SplitFinder1, SplitFinder2]}
             description={
-              'A GUI based application that calculates: How much time a user must cover a certain distance in, in order to run the user’s desired pace: What the average kilometer or mile the user ran based on a certain distance and time. The main goal of this project was to become familiar with the built-in GUI libraries that Python offers, such as TKinter.'
+              'A GUI based application that calculates how much time a user must cover a certain distance in, in order to run the user’s desired pace and what the average kilometer or mile the user ran based on a certain distance and time. The main goal of this project was to become familiar with the built-in GUI libraries that Python offers, such as TKinter.'
             }
             github={'https://github.com/Anton-Michna/SplitCalculator.git'}
           />
@@ -45,7 +45,7 @@ function Projects() {
             index={'Veggie Eater 2'}
             images={[VeggieEater1, VeggieEater2]}
             description={
-              'A Swift/SwiftUI IOS application that allows the user to feed a character in order to keep him alive. When the characters health reaches zero, the character dies and the user has the option to start again. I completed this project because I wanted to learn about IOS development. I entered this project with no prior knowledge of mobile or IOS development and taught myself the foundations over Christmas break. This app is still operational on the current IOS versions.'
+              'A Swift/SwiftUI IOS application that allows the user to feed a character in order to keep him alive. When the character\'s health reaches zero, the character dies and the user has the option to start again. I completed this project because I wanted to learn about IOS development. I entered this project with no prior knowledge of mobile or IOS development and taught myself the foundations over Christmas break. This app is still operational on the current IOS versions.'
             }
             github={'https://github.com/Anton-Michna/Veggie_Eater_2App.git'}
           />

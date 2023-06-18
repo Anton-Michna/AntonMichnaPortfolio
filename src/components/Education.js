@@ -40,7 +40,7 @@ function Education() {
             </div>
 
             <div className='education-text-description'>
-            I graduated from The University of Memphis with a Baccalaureate degree in Computer Science in May of 2023. I completed this degree in 3 years, spanning from August 2020 to May 2023, with a Grade Point Average of 3.94. Relevant courses that I took include: Software Engineering, Computer Architecture, Data Structures and Algorithms, Programming Languages, Data Visualization, Operating Systems, Artificial Intelligence, 
+            I graduated from The University of Memphis with a Baccalaureate degree in Computer Science in May of 2023. I completed this degree in three years, spanning from August 2020 to May 2023, with a Grade Point Average of 3.94. Relevant courses that I took include Software Engineering, Computer Architecture, Data Structures and Algorithms, Programming Languages, Data Visualization, Operating Systems, Artificial Intelligence, 
 Data Mining, and Networking.
             </div>
          
