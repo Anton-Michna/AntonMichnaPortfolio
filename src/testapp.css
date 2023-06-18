@@ -1,5 +1,6 @@
 body{
-    overflow:auto;
+    overflow:scroll;
+    justify-content: flex-start;
 }
 
 .app-component {
@@ -57,6 +58,7 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 5%;
+    overflow: auto;
   }
 
 
