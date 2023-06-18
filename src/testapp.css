@@ -65,12 +65,14 @@ body{
   .right-link button,
 .left-link button {
   flex: 1;
+  margin-left: 7vw;
+  margin-right: 7vw;
 }
 
 .middle-link button {
   width: auto;
-  margin-right: 15vw;
-  margin-left: 15vw;
+  margin-right: 7vw;
+  margin-left: 7vw;
 }
 
 
