@@ -8,7 +8,7 @@
 
 .education-container {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   height: 100vh;
   flex-direction: column;
@@ -18,19 +18,18 @@
 .education-heading-one{
   font-size: 75px;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
   padding: 0%;
   font-weight: bold;
-  top: 3%;
+
 }
 
 .education-heading-two{
   font-size: 55px;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
   padding: 0%;
   font-weight: bold;
-  top: 15%;
 }
 
 .image-for-education {
@@ -54,13 +53,12 @@
 
 
 .education-go-back-link {
-  position: absolute;
-  top: 90%;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+
+  width: auto;
+  margin-right: 15vw;
+  margin-left: 15vw;
 }
 
 
